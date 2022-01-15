@@ -6,10 +6,13 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-            BankAccount bankAccount = new BankAccount(14997789, 554875, TypeAcc.Credite);
+            BankAccount bankAccount = new BankAccount( 554875);
+            BankAccount bankAccount1 = new BankAccount(TypeAcc.Credite);
+            BankAccount bankAccount2 = new BankAccount(554875, TypeAcc.Credite);
+
             bankAccount.OUT();
-            bankAccount.OUT();
-            bankAccount.OUT();
+            bankAccount1.OUT();
+            bankAccount2.OUT();
         }
     }
     

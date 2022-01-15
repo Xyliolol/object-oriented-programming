@@ -16,20 +16,25 @@ namespace Lesson2
     { 
         private static int _Number = 1;
         private static int Number { get { return _Number++; }  }
-        private int AccountNumber { get; set; }
-        
-        public BankAccount(int account_number, decimal balance, TypeAcc type)
-        {
-            AccountNumber = account_number;
-            Balance = balance;
-            Type = type;
-
-        }
-       
+               
         private decimal Balance { get; set; }
+        public BankAccount( decimal balance)
+        {
+            Balance = balance; 
+            
+        }
 
         private TypeAcc Type { get; set; }
 
+        public BankAccount(TypeAcc type)
+        {
+            Type = type;
+        }
+        public BankAccount(decimal balance,TypeAcc type)
+        {
+            Balance = balance;
+            Type = type;
+        }
 
         public void OUT()
         {
