@@ -8,7 +8,8 @@ namespace Lesson2
         {
             BankAccount bankAccount = new BankAccount(14997789, 554875, TypeAcc.Credite);
             bankAccount.OUT();
-
+            bankAccount.OUT();
+            bankAccount.OUT();
         }
     }
     
