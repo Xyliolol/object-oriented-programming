@@ -6,7 +6,10 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-           
+            BankAccount bankAccount = new BankAccount(14997789, 554875, TypeAcc.Credite);
+            bankAccount.OUT();
+
         }
     }
+    
 }
