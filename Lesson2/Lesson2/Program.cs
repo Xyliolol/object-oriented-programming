@@ -1,19 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Lesson2
+namespace Lesson3
 {
     class Program
-    {
-        static void Main(string[] args)
-        {
-            BankAccount bankAccount = new BankAccount( 554875);
-            BankAccount bankAccount1 = new BankAccount(TypeAcc.Credite);
-            BankAccount bankAccount2 = new BankAccount(554875, TypeAcc.Credite);
-
-            bankAccount.OUT();
-            bankAccount1.OUT();
-            bankAccount2.OUT();
+    { 
+        static string StringReverse(string vvod)
+        { 
+            char[] vvodReverse = vvod.ToCharArray();
+            Array.Reverse(vvodReverse);
+            return new string(vvodReverse);
+            
         }
+        static void Main(string[] args)
+        { 
+            Console.WriteLine("Введите любой текст");
+            string vvod = Console.ReadLine();
+            vvod = StringReverse(vvod);
+            Console.WriteLine(vvod);
+        }
+       
     }
-    
+   
 }

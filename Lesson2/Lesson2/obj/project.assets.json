@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\79515\\Desktop\\OOP\\object-oriented-programming\\Lesson2\\Lesson2\\Lesson2.csproj",
-      "projectName": "Lesson2",
-      "projectPath": "C:\\Users\\79515\\Desktop\\OOP\\object-oriented-programming\\Lesson2\\Lesson2\\Lesson2.csproj",
+      "projectUniqueName": "C:\\Users\\79515\\Desktop\\OOP\\object-oriented-programming\\Lesson2\\Lesson2\\Lesson3.csproj",
+      "projectName": "Lesson3",
+      "projectPath": "C:\\Users\\79515\\Desktop\\OOP\\object-oriented-programming\\Lesson2\\Lesson2\\Lesson3.csproj",
       "packagesPath": "C:\\Users\\79515\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\79515\\Desktop\\OOP\\object-oriented-programming\\Lesson2\\Lesson2\\obj\\",
       "projectStyle": "PackageReference",
